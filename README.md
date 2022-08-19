@@ -1,2 +1,4 @@
-# servicio-internet
-Actividad del Programa ONE, una alianza entre Alura Latam y Oracle
+# InterFibra
+## Programa ONE: formación de Front End
+
+Proyecto de front-end donde se desarrolla un layout responsivo.
