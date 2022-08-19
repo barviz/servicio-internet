@@ -1,0 +1,91 @@
+.planes {
+    background-color: gray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.planes__titulo {
+    color: grey;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.planes__tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.tarjetas__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .75rem 0;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid teal;
+}
+
+.tarjetas__contenido {
+    padding: 0 15%;
+}
+
+.tarjetas__precio {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.tarjetas__texto {
+    color: gray;
+    line-height: 28px;
+}
+
+.tarjetas__boton {
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 100%;
+    align-self: center;
+    padding: .75rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tarjetas--bronce {
+    color: #035A76;
+}
+
+.tarjetas--plata {
+    color: #690F8E;
+}
+
+.tarjetas--oro {
+    color: #B00024;
+}
+
+.tarjetas__boton--bronce {
+    border-color: #035A76;
+}
+
+.tarjetas__boton--plata {
+    border-color: #690F8E;
+}
+
+.tarjetas__boton--oro {
+    border-color: #B00024;
+}
