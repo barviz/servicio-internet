@@ -26,3 +26,11 @@
 .llamada__boton {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px){
+
+    .llamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}

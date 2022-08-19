@@ -89,3 +89,14 @@
 .tarjetas__boton--oro {
     border-color: #B00024;
 }
+
+@media screen and (min-width:1024px) {
+    .planes__tarjetas {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .tarjetas {
+        max-width: 300px;
+    }
+}

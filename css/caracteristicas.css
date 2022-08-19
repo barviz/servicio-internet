@@ -38,3 +38,13 @@
     border-color: red;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px) {
+    .caracteristicas {
+        background-color: var(--background-ceniza-claro);
+    }
+    
+    .caracteristicas__lista {
+        justify-content: space-around;
+    }
+}

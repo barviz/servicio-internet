@@ -32,3 +32,22 @@
 .nosotros__imagen {
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .nosotros {
+        display: flex;
+    }
+    .nosotros__contenido {
+        margin-right: 3rem;
+    }
+    .nosotros__titulo {
+        text-align: left;
+    }
+    .nosotros__texto--division {
+        border-bottom: 1px solid var(--background-ceniza-medio);
+        padding-bottom: 1.5rem;
+    }
+    .nosotros__imagen {
+        display: block;
+    }
+}
