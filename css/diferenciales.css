@@ -1,6 +1,7 @@
 .diferenciales {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+    background-color: var(--background-gris-oscuro);
 }
 
 .diferenciales__lista {
@@ -18,7 +19,7 @@
 }
 
 .item__titulo {
-    color: var(--fuente-ceniza-oscuro);
+    color: var(--fuente-gris-oscuro);
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -26,6 +27,7 @@
 }
 
 .item__texto {
+    font-family: var(--fuente-texto);
     line-height: normal;
 }
 
@@ -39,4 +41,14 @@
 
 .diferenciales__item-quimica {
     background-image: url(../img/icono-quimica.png);
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciales {
+        background-color: var(--background-gris-claro);
+    }
+    
+    .diferenciales__lista {
+        justify-content: space-around;
+    }
 }

@@ -1,10 +1,12 @@
 .nosotros {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    background-color:  var(--background-celeste-claro);
 }
 
 .nosotros__titulo {
-    color: gray;
+    font-family: var(--fuente-titulo);
+    color: var(--fuente-gris-oscuro);
     font-weight: 700;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -13,6 +15,7 @@
 }
 
 .nosotros__texto {
+    font-family: var(--fuente-texto);
     line-height: normal;
     margin-bottom: 1rem;
 }
@@ -25,7 +28,7 @@
 }
 
 .nosotros__texto--division {
-    color: gray;
+    color: #D35400;
     font-weight: 700;
 }
 

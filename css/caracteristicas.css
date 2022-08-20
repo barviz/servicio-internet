@@ -1,11 +1,12 @@
 .caracteristicas {
-    background-color: blue;
+    background-color:  var(--background-verde-claro);
     padding-top: 2.5rem;
     padding-bottom: 2rem;
 }
 
 .caracteristicas__titulo {
-    color: gray;
+    font-family: var(--fuente-titulo);
+    color: var(--fuente-gris-oscuro);
     font-weight: 700;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -28,20 +29,27 @@
 }
 
 .caracteristicas__panel-texto {
-    font-weight: 700;
+    font-family: var(--fuente-texto);
     font-size: 1.2rem;
     line-height: normal;
 }
 
 .caracteristicas__boton {
-    color: red;
-    border-color: red;
+    font-family: var(--fuente-boton);
+    color: black;
+    border-color: var(--boton-azul);
     margin: 0 auto;
+}
+
+.caracteristicas__boton:hover {
+    color: var(--boton-blanco);
+    background-color: var(--boton-azul);
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1024px) {
     .caracteristicas {
-        background-color: var(--background-ceniza-claro);
+        background-color: var(--background-verde-claro);
     }
     
     .caracteristicas__lista {

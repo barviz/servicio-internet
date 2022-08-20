@@ -1,19 +1,13 @@
 .head {
     color: #103D4A;
-
     width: 100%;
-
     box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-top: .75rem;
     padding-bottom: .75rem;
-
-    border-bottom: 1px solid #103D4A;
-
+    border-bottom: 1px solid var(--border-cabecera-mobile);
     position: absolute;
 }
 
@@ -27,12 +21,15 @@
 
 .head__enlace {
     font-size: 1.1rem;
-
     display: inline-block;
-
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
+    font-family: var(--fuente-header);
+}
+
+.head__enlace:hover {
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1024px) {
@@ -42,7 +39,4 @@
         border: none;
     }
 
-    .head__logo {
-        width: 20%;;
-    }
 }

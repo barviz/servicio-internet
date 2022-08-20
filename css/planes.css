@@ -1,11 +1,12 @@
 .planes {
-    background-color: gray;
+    background-color:  var(--background-amarillo-claro);
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 .planes__titulo {
-    color: grey;
+    font-family: var(--fuente-titulo);
+    color: var(--fuente-gris-oscuro);
     font-weight: 700;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -22,7 +23,7 @@
 .tarjetas {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color:  var(--background-blanco);
     width: 100%;
     max-width: 300px;
     margin-bottom: 2rem;
@@ -31,12 +32,13 @@
 }
 
 .tarjetas__titulo {
+    font-family: var(--fuente-titulo);
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
     padding: .75rem 0;
     margin-bottom: .5rem;
-    border-bottom: 1px solid teal;
+    border-bottom: 2px solid var(--background-amarillo-claro);
 }
 
 .tarjetas__contenido {
@@ -52,7 +54,8 @@
 }
 
 .tarjetas__texto {
-    color: gray;
+    font-family: var(--fuente-texto);
+    color: var(--fuente-gris-oscuro);
     line-height: 28px;
 }
 
@@ -67,27 +70,42 @@
 }
 
 .tarjetas--bronce {
-    color: #035A76;
+    color: var(--planes-card-bronce);
 }
 
 .tarjetas--plata {
-    color: #690F8E;
+    color: var(--planes-card-plata);
 }
 
 .tarjetas--oro {
-    color: #B00024;
+    color: var(--planes-card-oro);
 }
 
 .tarjetas__boton--bronce {
-    border-color: #035A76;
+    border-color: var(--planes-card-bronce);
+}
+
+.tarjetas__boton--bronce:hover {
+    color: var(--boton-blanco);
+    background-color: var(--planes-card-bronce);
 }
 
 .tarjetas__boton--plata {
-    border-color: #690F8E;
+    border-color: var(--planes-card-plata);
+}
+
+.tarjetas__boton--plata:hover {
+    color: var(--boton-blanco);
+    background-color: var(--planes-card-plata);
 }
 
 .tarjetas__boton--oro {
-    border-color: #B00024;
+    border-color: var(--planes-card-oro);
+}
+
+.tarjetas__boton--oro:hover {
+    color: var(--boton-blanco);
+    background-color: var(--planes-card-oro);
 }
 
 @media screen and (min-width:1024px) {

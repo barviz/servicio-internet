@@ -4,12 +4,13 @@
     align-items: center;
     color: #00161C;
     text-align: center;
-    background-color: #ffffff;
+    background-color:  var(--background-llamada-mobile);
     padding-top: 15rem;
     padding-bottom: 2.5rem;
 }
 
 .llamada__titulo {
+    font-family: var(--fuente-llamada-titulo);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -17,14 +18,23 @@
 }
 
 .llamada__texto {
+    font-family: var(--fuente-llamada-texto);
     font-size: 1.25rem;
     line-height: normal;
-
     margin: 0 auto 2.5rem;
 }
 
 .llamada__boton {
     width: 100%;
+    font-family: var(--fuente-boton);
+    color:  black;
+    border-color: var(--boton-azul);
+}
+
+.llamada__boton:hover {
+    color: var(--boton-blanco);
+    background-color: var(--boton-azul);
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1024px){

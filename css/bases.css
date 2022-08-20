@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Hind+Siliguri:wght@300&family=Overpass:wght@500&family=Raleway:wght@600&family=Red+Hat+Display&family=Varela+Round&display=swap');
+
+:root {
+    --background-llamada-mobile: #FFFFFF;
+    --background-blanco: #F7F4F4;
+    --background-verde-claro: #D4EFDF;
+    --background-gris-claro: #F7F4F4;
+    --background-gris-oscuro: #D7DBDD;
+
+    --border-cabecera-mobile: #103D4A;
+
+    --fuente-header: 'Overpass', sans-serif;
+    --fuente-llamada-titulo: 'Raleway', sans-serif;
+    --fuente-llamada-texto: 'Hind Siliguri', sans-serif;
+    --fuente-boton: 'Varela Round', sans-serif;
+    --fuente-titulo:  'Red Hat Display', sans-serif;
+    --fuente-texto: 'Asap', sans-serif;
+
+    --boton-blanco: #FFFFFF;
+    --boton-azul: #2E86C1;
+
+    --fuente-gris-claro: #5D6D7E;
+    --fuente-gris-oscuro: #34495E;
+
+    --background-celeste-claro: #D6EAF8;
+    --background-rojo-claro: #F2D7D5;
+
+    --background-amarillo-claro: #FCF3CF;
+    --planes-card-bronce: #B03A2E;
+    --planes-card-plata: #909497 ;
+    --planes-card-oro: #D4AC0D;
+
+    --background-footer: #333333;
+}
+
+
 .container {
     padding-right: 6%;
     padding-left: 6%;
